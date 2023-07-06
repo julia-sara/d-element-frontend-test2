@@ -1,0 +1,100 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(41, 41, 41, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.4s, visibility 0.4s;
+}
+
+.modal.open {
+  visibility: visible;
+  opacity: 1;
+}
+.ModalContainer {
+  max-width: 540px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.ModalBox1,
+.ModalBox2 {
+  position: relative;
+  width: 540px;
+  height: 800px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  background: #fafafa;
+  overflow-y: auto;
+}
+
+.clModalBtn {
+  position: absolute;
+  margin-left: 90%;
+  padding: 9px 10px 7px;
+  border: 1px solid #f1cdb3;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.modal__close-icon {
+  cursor: pointer;
+  border: 1px #f1cdb3 solid;
+  border-radius: 50%;
+  padding: 10px 13px;
+  margin: 0px 0px 0px 100%;
+}
+
+.ModalTextBlock {
+  margin: 50px 20px;
+  width: 351px;
+  list-style-type: disc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.ModalText {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  /* or 17px */
+  letter-spacing: 0.06em;
+}
+.ModalH3 {
+  font-family: Gilroy;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: rgba(31, 63, 104, 1);
+}
+.modalInput {
+  width: 428px;
+  height: 72px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}

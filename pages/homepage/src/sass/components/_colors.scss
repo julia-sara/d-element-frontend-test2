@@ -1,0 +1,139 @@
+h1 {
+  font-family: Galien;
+  font-size: 60px;
+  line-height: 74px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: rgba(31, 63, 104, 1);
+}
+h2 {
+  font-family: Gilroy, sans-serif;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.12em;
+  text-align: left;
+  color: rgba(49, 96, 153, 1);
+}
+h3 {
+  font-family: Gilroy, sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: white;
+}
+h4 {
+  font-family: Gilroy, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: white;
+}
+h5 {
+  font-family: Gilroy, sans-serif;
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: rgba(31, 63, 104, 1);
+}
+p {
+  font-family: Gilroy, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  text-align: left;
+  color: rgba(31, 63, 104, 1);
+}
+.button {
+  width: 220px;
+  padding: 15px 45px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: white;
+  background: rgba(90, 152, 208, 1);
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.formsContainerButton {
+  font-size: 16px;
+  line-height: 130%;
+  color: rgba(90, 152, 208, 1);
+  background: rgb(255, 255, 255);
+  border: 0;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.formsContainerButton:hover {
+  color: #bfe2ff;
+}
+
+.strelka-right-4 polygon {
+  fill: rgba(90, 152, 208, 1);
+  transition: fill 0.5s ease-out;
+}
+.strelka-right-4:hover polygon {
+  fill: #bfe2ff;
+}
+
+.main-content__ourClient_ourBelovedClient_text-p {
+  color: white;
+}
+.LOGO-CLIENT-1,
+.LOGO-CLIENT-2,
+.LOGO-CLIENT-3,
+.LOGO-CLIENT-4,
+.LOGO-CLIENT-5,
+.LOGO-CLIENT-6,
+.LOGO-CLIENT-7,
+.LOGO-CLIENT-8 {
+  font-family: Gilroy, sans-serif;
+  font-size: 20px;
+  line-height: 46px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+}
+.LOGO-CLIENT-8 {
+  background: rgba(31, 63, 104, 0.5);
+}
+
+.content__ourClient_workTeam_textP {
+  color: white;
+}
+
+.main-content__ourClient_workTeam_textH {
+  letter-spacing: 0em;
+}
+.main-content__ourClient_workTeam_textP {
+  color: white;
+  font-family: Gilroy, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+.footer__contacts-text {
+  font-family: Gilroy, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: white;
+}
+.link {
+  font-family: Gilroy, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.09em;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+}
